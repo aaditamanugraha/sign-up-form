@@ -23,7 +23,8 @@ main > form > .input {
 }
 
 main > form > .input > label {
-  font-size: 14px;
+  font-size: 12px;
+  font-weight: 400;
 }
 
 main > form > .input > input {
