@@ -16,9 +16,17 @@ main {
   flex-direction: column;
 }
 
+main > form > .input {
+  display: flex;
+}
+
 main > form > .input > label {
   float: left;
   width: 20%;
+}
+
+main > form > .input > input {
+  width: 80%;
 }
 
 .image-container {
