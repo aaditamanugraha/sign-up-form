@@ -18,15 +18,11 @@ main {
 
 main > form > .input {
   display: flex;
-}
-
-main > form > .input > label {
-  float: left;
-  width: 20%;
+  flex-direction: column;
 }
 
 main > form > .input > input {
-  width: 80%;
+  width: 99%;
 }
 
 .image-container {
