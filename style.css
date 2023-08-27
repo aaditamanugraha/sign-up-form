@@ -10,14 +10,17 @@ body {
 }
 
 main {
-  width: 50%;
+  width: 100%;
 }
 
 .image-container {
-  width: 50%;
+  width: 100%;
 }
 
 .image-container > img {
+  height: 100vh;
+}
+
+.image-container > .image-content {
   width: 100%;
-  height: auto;
 }
