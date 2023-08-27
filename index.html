@@ -15,24 +15,24 @@
         <h1>Welcome to Svetel.</h1>
         <p>Join the best learning program in the world!</p>
       </div>
-      <form action="#" method="get">
-        <div>
+      <form action="#" method="post">
+        <div class="input text">
           <label for="first-name">First Name</label>
           <input type="text" id="first-name" name="first-name" />
         </div>
-        <div>
+        <div class="input text">
           <label for="last-name">Last Name</label>
           <input type="text" id="last-name" name="last-name" />
         </div>
-        <div>
+        <div class="input email">
           <label for="user-email">Email</label>
           <input type="email" name="user-email" id="user-email" required />
         </div>
-        <div>
+        <div class="input number">
           <label for="phone-number">Phone Number</label>
           <input type="number" name="phone-number" id="phone-number" />
         </div>
-        <div>
+        <div class="input password">
           <label for="uesr-password">Password</label>
           <input
             type="password"
@@ -42,7 +42,9 @@
             minlength="8"
           />
         </div>
-        <div><button type="submit">Create Account</button></div>
+        <div class="input button">
+          <button type="submit">Create Account</button>
+        </div>
       </form>
       <div>
         <p>Already have an account? <a href="#">Login</a>.</p>
